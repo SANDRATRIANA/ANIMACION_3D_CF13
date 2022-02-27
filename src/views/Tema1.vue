@@ -143,7 +143,7 @@
                   h4.text-white.mb-0 Formatos de imagen: 
               p.mb-4 El formato hace referencia a la forma en que se almacenarán los datos que hacen parte de una imagen. Existen dos tipos de imágenes, los mapas de bits (bitmaps) o imágenes rasterizadas, que están conformadas por un conjunto de puntos diminutos conocidos como píxeles ordenados en una malla, a los cuales se les atribuye un color por medio de coordenadas, por lo que no se puede aumentar su tamaño sin que se disminuya su calidad, y los vectores, los cuales están formados por polígonos de puntos en vez de pixeles, por lo que se pueden redimensionar o escalar infinitamente ya que no pierden su calidad.  
               .cajon.color-acento-botones.p-4
-                h3 Existen diferentes formatos en los cuales se pueden almacenar datos de imagen: 
+                p Existen diferentes formatos en los cuales se pueden almacenar datos de imagen: 
             .col.lg-4
               img(src="@/assets/curso/tema1/img10.png")
           .row.justify-content-center.mb-4
