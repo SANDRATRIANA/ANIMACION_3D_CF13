@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="62" height="61" viewBox="0 0 62 61">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4a494a"/>
+      <stop offset="0.211" stop-color="#414041"/>
+      <stop offset="0.554" stop-color="#282828"/>
+      <stop offset="0.985" stop-color="#010101"/>
+      <stop offset="1"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_151152" data-name="Grupo 151152" transform="translate(-316 -3632)">
+    <g id="Grupo_142859" data-name="Grupo 142859" transform="translate(316.422 3631.62)">
+      <ellipse id="Elipse_4775" data-name="Elipse 4775" cx="31" cy="30.5" rx="31" ry="30.5" transform="translate(-0.422 0.38)" fill="url(#linear-gradient)"/>
+    </g>
+    <text id="_1" data-name="1" transform="translate(338 3674)" fill="#fff" font-size="32" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">1</tspan></text>
+  </g>
+</svg>

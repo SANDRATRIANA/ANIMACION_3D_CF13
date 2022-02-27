@@ -51,19 +51,19 @@
     p.mb-4 La forma de exportar videos desde Blender varía en función a la plataforma en que se van a reproducir los proyectos audiovisuales, no es lo mismo exportar para redes sociales, que hacerlo para blu ray o pantalla grande, pero para todos los casos es importante y funcional, así que se hace necesario conocer los parámetros que debe ajustarse para ello:
 
     .row.justify-content-center.mb-4
-      .col-lg-4
+      .col-lg-6
         SlyderF.mb-5(columnas="col-12")
           .BG02.p-4
             figure.mb-4
-              img(src='@/assets/curso/tema1/img_05.jpg')
+              img(src='@/assets/curso/tema1/img05.png')
             p.text-center  Antiguamente con los televisores de caja, tenían un aspecto casi cuadrado, el cual era de 4:3, es decir que tenían 4 unidades de ancho por 3 de alto. 
           .BG02.p-4
             figure.mb-4
-              img(src='@/assets/curso/tema1/img_06.jpg')
+              img(src='@/assets/curso/tema1/img06.png')
             p.text-center  Pero ahora las pantallas de los últimos 20 años suelen ser de 16:9, que es el estándar por excelencia, lo que ha generalizado las emisiones televisivas, y el streaming.  Este tipo de aspecto, tiene una visión panorámica.
           .BG02.p-4
             figure.mb-4
-              img(src='@/assets/curso/tema1/img_07.jpg')
+              img(src='@/assets/curso/tema1/img07.png')
             p.text-center Aun así, seguimos viendo en ellas, las famosas bandas de color negro alrededor de la imagen, con la finalidad de que las películas, que se han hecho con un aspecto diferente, puedan visualizarse de forma completa, pero perdiendo parte de pantalla en ella. 
 
     .row.justify-content-center.mb-4
@@ -85,73 +85,163 @@
 
     .row.align-items-center.BG05.p-4.mb-4      
       .col-md-6.mb-4.mb-md-0
-        p   Hay diversidad de formatos que se pueden utilizar para exportar e importar imágenes y videos, para que al reproducirlos dependiendo de la plataforma que se establezca para ello, se visualicen de manera óptima y correcta, entre ellos se va a encontrar los siguientes:
+        p Hay diversidad de formatos que se pueden utilizar para exportar e importar imágenes y videos, para que al reproducirlos dependiendo de la plataforma que se establezca para ello, se visualicen de manera óptima y correcta, entre ellos se va a encontrar los siguientes:
       .col-md-6
         figure
-          img(src='@/assets/curso/tema1/img_08.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/tema1/img_08.png')
     
-    .row.mb-4
-      .col-lg-4.BG04.p-2
-        h4.text-white.mb-0 Formatos de video: 
+    #MapaGroup01.row.justify-content-center.p-4.mb-4
+      .col-lg-2.col-sm-4.mb-4
+        button.buttom.color-primario.p-3.w-100.position-relative(data-bs-toggle='collapse' data-bs-target='.multi-collapse1' aria-expanded='true' aria-controls='.multi-collapse1')
+          .row.justify-content-center
+            .col-lg-8.col-sm-6.mb-4
+              img(src='@/assets/curso/tema1/img16.svg')
+            .col-12
+              p.text-bold.text-center.mb-0 Formatos de video
+      .col-lg-2.col-sm-4.mb-4
+        button.buttom.color-primario.p-3.w-100.position-relative(data-bs-toggle='collapse' data-bs-target='.multi-collapse2' aria-expanded='true' aria-controls='.multi-collapse2')
+          .row.justify-content-center
+            .col-lg-8.col-sm-6.mb-4
+              img(src='@/assets/curso/tema1/img17.svg')
+            .col-12
+              p.text-bold.text-center.mb-0 Formatos de imagen
+      .col-lg-2.col-sm-4.mb-4
+        button.buttom.color-primario.p-3.w-100.position-relative(data-bs-toggle='collapse' data-bs-target='.multi-collapse3' aria-expanded='true' aria-controls='.multi-collapse3')
+          .row.justify-content-center
+            .col-lg-8.col-sm-6.mb-4
+              img(src='@/assets/curso/tema1/img18.svg')
+            .col-12
+              p.text-bold.text-center.mb-0 Formatos para redes 
+              | #[strong sociales]
 
-    p.mb-4 A continuación, se podrán observar los conceptos de los formatos de video existentes:
-    
-    .row.mb-5
-      .col-lg-5
-        figure.mb-5
-          img(src="@/assets/curso/tema1/img_10.svg")
-      .col-lg-6.mb-5.mb-md-0
-        LineaTiempoD.color-primario
-          p.text-small(numero="1" titulo="Contenedor MP4:") Conservan alta calidad, manteniendo un tamaño reducido. Es de los más utilizados actualmente, se usa frecuentemente para compartir en línea, puede contener datos adicionales como subtítulos e imágenes estáticas. Es combinado generalmente con h.264 y h.265.
-          p.text-small(numero="2" titulo="Contenedor AVI:") Formato de video posicionado y antiguo, tiende a generar archivos grandes, pero soportados por gran variedad de códecs. No es útil para la transmisión en línea.
-          p.text-small(numero="3" titulo="Contenedor MKV:") Formato de video profesional de código abierto llamado matroska en el cual se pueden almacenar anexados al canal de audio, varios tipos de subtítulos, varias pistas de audio.
-          p.text-small(numero="4" titulo="Contenedor FLV:") Actualmente de reducido su uso, fue el formato más común en reproductores en línea, no se recomienda trabajar en este formato puesto que se ha terminado la compatibilidad para él.
-          p.text-small(numero="5" titulo="Contenedor MOV:") Calidad alta pero limitada compatibilidad, además de generar archivos muy grandes. ideal para archivar videos de alta calidad.
-          p.text-small(numero="6" titulo="Contenedor WMV:") Este tipo de formato genera videos pequeños ideales para ser enviados por correo, como muestra de avances. Pierde calidad significativamente al ser archivos pequeños.
-          p.text-small(numero="7" titulo="Contenedor DIVX/XviD:") Codec antiguo que aún circula, diseñado para tener calidad de video alta, pero a su vez tamaños de archivos grandes. Usado frecuentemente para el almacenamiento y transporte en discos duros.
-          p.text-small(numero="8" titulo="H.264 (MPEG-4):") Formato muy usado, con pérdida de calidad, pero ampliamente compatible, de uso estandarizado para blu ray y servidores web. Se puede utilizar a tasas de bits tanto altas como bajas, se utiliza con contenedores .mp4 y .mov.
-            
-    .row.mb-4
-      .col-lg-4.BG04.p-2
-        h4.text-white.mb-0 Formatos de imagen 
-
-    p.mb-4 El formato hace referencia a la forma en que se almacenarán los datos que hacen parte de una imagen. Existen dos tipos de imágenes, los mapas de bits (bitmaps) o imágenes rasterizadas, que están conformadas por un conjunto de puntos diminutos conocidos como píxeles ordenados en una malla, a los cuales se les atribuye un color por medio de coordenadas, por lo que no se puede aumentar su tamaño sin que se disminuya su calidad, y los vectores, los cuales están formados por polígonos de puntos en vez de pixeles, por lo que se pueden redimensionar o escalar infinitamente ya que no pierden su calidad.
+      .col-lg-12.position-relative
+        .multi-collapse1.collapse.show(data-bs-parent='#MapaGroup01')
+          .row.mb-4
+            .col-lg-4.BG04.p-2
+              h4.text-white.mb-0 Formatos de video: 
+          p.mb-4 A continuación, se podrán observar los conceptos de los formatos de video existentes: 
+          .row.mb-5
+            .col-lg-5
+              figure.mb-5
+                img(src="@/assets/curso/tema1/img_10.svg")
+            .col-lg-6.mb-5.mb-md-0
+              LineaTiempoD.color-primario
+                p.text-small(numero="1" titulo="Contenedor MP4:") Conservan alta calidad, manteniendo un tamaño reducido. Es de los más utilizados actualmente, se usa frecuentemente para compartir en línea, puede contener datos adicionales como subtítulos e imágenes estáticas. Es combinado generalmente con h.264 y h.265.
+                p.text-small(numero="2" titulo="Contenedor AVI:") Formato de video posicionado y antiguo, tiende a generar archivos grandes, pero soportados por gran variedad de códecs. No es útil para la transmisión en línea.
+                p.text-small(numero="3" titulo="Contenedor MKV:") Formato de video profesional de código abierto llamado matroska en el cual se pueden almacenar anexados al canal de audio, varios tipos de subtítulos, varias pistas de audio.
+                p.text-small(numero="4" titulo="Contenedor FLV:") Actualmente de reducido su uso, fue el formato más común en reproductores en línea, no se recomienda trabajar en este formato puesto que se ha terminado la compatibilidad para él.
+                p.text-small(numero="5" titulo="Contenedor MOV:") Calidad alta pero limitada compatibilidad, además de generar archivos muy grandes. ideal para archivar videos de alta calidad.
+                p.text-small(numero="6" titulo="Contenedor WMV:") Este tipo de formato genera videos pequeños ideales para ser enviados por correo, como muestra de avances. Pierde calidad significativamente al ser archivos pequeños.
+                p.text-small(numero="7" titulo="Contenedor DIVX/XviD:") Codec antiguo que aún circula, diseñado para tener calidad de video alta, pero a su vez tamaños de archivos grandes. Usado frecuentemente para el almacenamiento y transporte en discos duros.
+                p.text-small(numero="8" titulo="H.264 (MPEG-4):") Formato muy usado, con pérdida de calidad, pero ampliamente compatible, de uso estandarizado para blu ray y servidores web. Se puede utilizar a tasas de bits tanto altas como bajas, se utiliza con contenedores .mp4 y .mov.
       
-    h3 Existen diferentes formatos en los cuales se pueden almacenar datos de imagen: 
+        .multi-collapse2.collapse(data-bs-parent='#MapaGroup01')
+          .row.justify-content-center.mb-4
+            .col-lg-8.p-2
+              .row.mb-4
+                .col-lg-4.BG04
+                  h4.text-white.mb-0 Formatos de imagen: 
+              p.mb-4 El formato hace referencia a la forma en que se almacenarán los datos que hacen parte de una imagen. Existen dos tipos de imágenes, los mapas de bits (bitmaps) o imágenes rasterizadas, que están conformadas por un conjunto de puntos diminutos conocidos como píxeles ordenados en una malla, a los cuales se les atribuye un color por medio de coordenadas, por lo que no se puede aumentar su tamaño sin que se disminuya su calidad, y los vectores, los cuales están formados por polígonos de puntos en vez de pixeles, por lo que se pueden redimensionar o escalar infinitamente ya que no pierden su calidad.  
+              .cajon.color-acento-botones.p-4
+                h3 Existen diferentes formatos en los cuales se pueden almacenar datos de imagen: 
+            .col.lg-4
+              img(src="@/assets/curso/tema1/img10.png")
+          .row.justify-content-center.mb-4
+            .col.lg-7
+              figure.mb-5
+                img(src="@/assets/curso/tema1/img09.png")
+            .col-lg-4
+              SlyderF.mb-5(columnas="col-12")
+                .BG06.p-4
+                  .row.justify-content-center.mb-4
+                    .col-lg-6
+                      img(src='@/assets/curso/tema1/img11.png' alt='AvatarTop')
+                  h2.text-center JEG/pnG:
+                  p.text-center Es uno de los formatos más comunes, usado generalmente en las cámaras fotográficas digitales que comprime los archivos manteniéndolos ligeros para que puedan ser fácilmente visualizados, compartidos y publicados en red; sin embargo, su principal inconveniente es que cada vez que el archivo se edita y se vuelve a guardar va perdiendo calidad, además no es apto para guardar texto, ilustraciones o gráficos simples.
+                .BG06.p-4
+                  .row.justify-content-center.mb-4
+                    .col-lg-6
+                      img(src='@/assets/curso/tema1/img12.png' alt='AvatarTop')
+                  h2.text-center GIF:
+                  p.text-center Es un formato de compresión sin pérdidas manteniendo los archivos ligeros, y es altamente compatible por lo que a menudo se usa para compartir principalmente, gráficos webs sencillos y animaciones cortas sin sonido (GIF animados).
+                .BG06.p-4
+                  .row.justify-content-center.mb-4
+                    .col-lg-6
+                      img(src='@/assets/curso/tema1/img13.png')
+                  h2.text-center PNG:
+                  p.text-center Se trata de un formato de compresión diseñado para gráficos web usado como mejora del GIF, y al igual que éste, no presenta pérdidas de calidad al editarse, permitiendo archivos más grandes e imágenes más complejas con colores sólidos y líneas nítidas; a diferencia de los GIF, pueden contener un grado de transparencia brindando mayor flexibilidad al editar o crear imágenes y gráficos en la web, aunque sin permitir la animación de los mismos, además solo admiten colores RGB y su compatibilidad es limitada.
+                .BG06.p-4
+                  .row.justify-content-center.mb-4
+                    .col-lg-6
+                      img(src='@/assets/curso/tema1/img14.png' alt='AvatarTop')
+                  h2.text-center BMP:
+                  p.text-center Se trata de un formato sin compresión o su tasa es demasiado baja, en el cual se registra cada píxel de la matriz que compone una imagen. Es altamente compatible por lo que anteriormente se utilizaba mucho en la edición de imágenes, aunque presenta un gran problema debido a que el tamaño de los archivos es enorme y por lo tanto, son muy pesados.
+                .BG06.p-4
+                  .row.justify-content-center.mb-4
+                    .col-lg-6
+                      img(src='@/assets/curso/tema1/img15.png')
+                  h2.text-center TIF/TIFF: 
+                  p.text-center Es un formato de compresión sin pérdidas, utilizado principalmente para datos de imagen sin procesar, lo que permite trabajar con imágenes de alta calidad y archivos de impresión ya que mantiene la resolución y la calidad; además, es altamente compatible con ordenadores permitiendo guardar varias imágenes y páginas en un mismo archivo. Las imágenes que se trabajan con este formato son bastante grandes ya que contienen más detalles, más colores, mayor calidad y resolución, por lo que, aunque, es un formato de compresión, los archivos quedan bastante pesados
+        .multi-collapse3.collapse(data-bs-parent='#MapaGroup01')
+          .row.mb-4
+            .col-lg-4.BG04.p-2
+              h4.text-white.mb-0 Formatos para redes sociales:
+          p.mb-4 Se verá a continuación el formato ideal para diversas redes sociales, teniendo en cuenta los siguientes parámetros:
 
-    .row.mb-5
-      .col-md-6.col-lg.tarjeta--tabla.p-4
-        .row.justify-content-center.mb-3
-          .col-4
-            img(src='@/assets/curso/tema1/img_11.jpg' alt='AvatarTop')
-        h2.text-center JPEG/JPG:
-        p.text-center Es uno de los formatos más comunes, usado generalmente en las cámaras fotográficas digitales que comprime los archivos manteniéndolos ligeros para que puedan ser fácilmente visualizados, compartidos y publicados en red; sin embargo, su principal inconveniente es que cada vez que el archivo se edita y se vuelve a guardar va perdiendo calidad, además no es apto para guardar texto, ilustraciones o gráficos simples.
-      .col-md-6.col-lg.tarjeta--tabla.p-4
-        .row.justify-content-center.mb-3
-          .col-4
-            img(src='@/assets/curso/tema1/img_12.jpg' alt='AvatarTop')
-        h2.text-center GIF:
-        p.text-center Es un formato de compresión sin pérdidas manteniendo los archivos ligeros, y es altamente compatible por lo que a menudo se usa para compartir principalmente, gráficos webs sencillos y animaciones cortas sin sonido (GIF animados).
-      .col-md-6.col-lg.tarjeta--tabla.p-4
-        .row.justify-content-center.mb-3
-          .col-4
-            img(src='@/assets/curso/tema1/img_13.jpg')
-        h2.text-center PNG:
-        p.text-center Se trata de un formato de compresión diseñado para gráficos web usado como mejora del GIF, y al igual que éste, no presenta pérdidas de calidad al editarse, permitiendo archivos más grandes e imágenes más complejas con colores sólidos y líneas nítidas; a diferencia de los GIF, pueden contener un grado de transparencia brindando mayor flexibilidad al editar o crear imágenes y gráficos en la web, aunque sin permitir la animación de los mismos, además solo admiten colores RGB y su compatibilidad es limitada.
+          LineaTiempoD.color-primario
+            .row(numero="A" titulo="Formato de video para YouTube: formato .mp4.")
+              .col-lg-2
+                figure
+                  img(src='@/assets/curso/tema1/img12.jpg', alt='Texto que describa la imagen')
+              .col-md-8.mb-4.mb-md-0
+                p.text-small #[strong Formato MPEG-2:] salida en codificación de audio: Dolby AC-3 o MPEG Layer II, bits de audio: 128 kbps o superior.
+                p.text-small #[strong Formato MPEG-4:] códec de video: H.264, Códec de audio: AAC, bits de audio: 128 kbps o superior.
+                p.text-small #[strong Duración] mínima: 33, velocidad de frames, debe ser igual al video original (24, 25 o 30 frames.) Sin aplicarle procesos de remuestreo.
+                p.text-small #[strong Resolución:] la resolución mínima para videos en venta o alquiler es full HD 1920x1080, en relación aspecto 16:9, para videos gratis no hay restricción de resolución, pero lo ideal es que no sea menor a HD 1280x720.
 
-      .col-md-6.col-lg.tarjeta--tabla.p-4
-        .row.justify-content-center.mb-3
-          .col-4
-            img(src='@/assets/curso/tema1/img_14.jpg' alt='AvatarTop')
-        h2.text-center BMP:
-        p.text-center Se trata de un formato sin compresión o su tasa es demasiado baja, en el cual se registra cada píxel de la matriz que compone una imagen. Es altamente compatible por lo que anteriormente se utilizaba mucho en la edición de imágenes, aunque presenta un gran problema debido a que el tamaño de los archivos es enorme y por lo tanto, son muy pesados.
+            .row(numero="B" titulo="Formato de video para Instagram: ")
+              p.text-small formato .mp4, ratio vertical 9:16, ratio horizontal 16:9, ratio 1:1 Cuadrada: 1080 x 1080 px - Horizontal: 1080 x 566 px - Vertical: 1080 x 1350 px.
+              .col-lg-2
+                figure
+                  img(src='@/assets/curso/tema1/img13.jpg', alt='Texto que describa la imagen')
+              .col-md-8.mb-4.mb-md-0
+                p.text-small #[strong Stories:]
+                p.text-small #[strong Para IG de instagram] la resolución mínima debe ser de 720 píxeles, si dura hasta 10 minutos, el tamaño tope debe ser de 650 MB, los que llegan a la hora de duración tendrán un tope de 3.6GB. 
+                p.text-small #[strong Instagram Ads:]  
 
-      .col-md-6.col-lg.tarjeta--tabla.p-4
-        .row.justify-content-center.mb-3
-          .col-4
-            img(src='@/assets/curso/tema1/img_15.jpg' alt='AvatarTop')
-        h2.text-center TIF/TIFF: 
-        p.text-center Es un formato de compresión sin pérdidas, utilizado principalmente para datos de imagen sin procesar, lo que permite trabajar con imágenes de alta calidad y archivos de impresión ya que mantiene la resolución y la calidad; además, es altamente compatible con ordenadores permitiendo guardar varias imágenes y páginas en un mismo archivo. Las imágenes que se trabajan con este formato son bastante grandes ya que contienen más detalles, más colores, mayor calidad y resolución, por lo que, aunque, es un formato de compresión, los archivos quedan bastante pesados
+            .row(numero="C" titulo="Formato de video para LinkedIn: formato .mp4.")
+              .col-md-8.mb-4.mb-md-0
+                p.text-small formato 1:1 resolución 1920 x 1920 píxeles para anuncios en video.
+            
+            .row(numero="D" titulo="Formato de vídeo para Pinterest: formato .mp4.")
+              .col-md-8.mb-4.mb-md-0
+                p.text-small Pinterest acepta todo tipo de formatos de video, pero para un óptimo resultado en su interfaz lo recomendable es que su formato sea de 1000 x 1500 pixeles
+
+            .row(numero="E" titulo="Formato de vídeo para TikTok: formato .mp4.")
+              .col-md-8.mb-4.mb-md-0
+                p.text-small Formato de 1080 x 1920 píxeles.
+
+            .row(numero="F" titulo="Formatos para Facebook: ")
+              P.text-small formato .mp4 o .mov. La relación aspecto puede variar, para cada uno de los apartados de Facebook, noticias, marketplace, instream, Stories. Entre ellos están los siguientes:
+              .col-lg-2
+                figure
+                  img(src='@/assets/curso/tema1/img14.jpg', alt='Texto que describa la imagen')
+              .col-md-8.mb-4.mb-md-0
+                p.text-small 16:9, ratio horizontal: 1920 x 1080 px.
+                p.text-small 1:1 ratio cuadrado: 1080 x 1080 px.
+                p.text-small 4:5 ratio Vertical: 864 x 1080 px.
+                p.text-small 9:16 _ 1080x1920 px. 
+
+            .row(numero="G" titulo="Formato de video para Twitter:")
+              .col-lg-2
+                figure
+                  img(src='@/assets/curso/tema1/img15.jpg', alt='Texto que describa la imagen')
+              .col-md-8.mb-4.mb-md-0
+                P.text-small 1280 x 1024 px.
+                p.text-small Aspect ratio: 1:2,39 -2,39:1.
+
+            
+
 
 </template>
 
